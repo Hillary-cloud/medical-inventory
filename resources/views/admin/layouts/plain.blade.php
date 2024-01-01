@@ -30,7 +30,8 @@
             <div class="container">
                 <div class="loginbox">
                     <div class="login-left">
-                        <img class="img-fluid" src="{{!empty(AppSettings::get('logo')) ? asset('storage/'.AppSettings::get('logo')): asset('assets/img/logo.png')}}" alt="Logo">
+                        {{-- <img class="img-fluid" src="{{!empty(AppSettings::get('logo')) ? asset('storage/'.AppSettings::get('logo')): asset('assets/img/logo.png')}}" alt="Logo"> --}}
+                        <h2>Medical<span class="text-danger">Inventory</span></h2>
                     </div>
                     <div class="login-right">
                         <div class="login-right-wrap">

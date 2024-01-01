@@ -3,11 +3,13 @@
 			
 	<!-- Logo -->
 	<div class="header-left">
-		<a href="{{route('dashboard')}}" class="logo">
-			<img src="@if(!empty(AppSettings::get('logo'))) {{asset('storage/'.AppSettings::get('logo'))}} @else{{asset('assets/img/logo.png')}} @endif" alt="Logo">
+		<a href="{{route('dashboard')}}" class="logo mt-3">
+			{{-- <img src="@if(!empty(AppSettings::get('logo'))) {{asset('storage/'.AppSettings::get('logo'))}} @else{{asset('assets/img/logo.png')}} @endif" alt="Logo"> --}}
+			<h4>Medical<span class="text-danger">Inventory</span></h4>
 		</a>
-		<a href="{{route('dashboard')}}" class="logo logo-small">
-			<img src="{{asset('assets/img/logo-small.png')}}" alt="Logo" width="30" height="30">
+		<a href="{{route('dashboard')}}" class="logo logo-small mt-2">
+			{{-- <img src="{{asset('assets/img/logo-small.png')}}" alt="Logo" width="30" height="30"> --}}
+			<h1 class="font-bold">M</h1>
 		</a>
 	</div>
 	<!-- /Logo -->
