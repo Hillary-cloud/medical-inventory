@@ -20,12 +20,12 @@
  Follow these steps to install the application.
 1. Clone the Repository
 ```
-git clone https://github.com/MusheAbdulHakim/Pharmacy-management-system.git
+git clone https://github.com/Hillary-cloud/medical-inventory.git
 ```
 2. Go to project directory
 
 ```
-cd Pharmacy-management-system
+cd medical-inventory
 ```
 
 3. Install packages with composer
