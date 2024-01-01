@@ -86,7 +86,6 @@ class BackupController extends Controller
     }
 
     
-    
 
     /**
      * Downloads a backup zip file.
