@@ -36,7 +36,8 @@ composer install
 
 4. Install npm packages with 
 ```
-npm install; npm run dev
+npm install
+npm run dev
 ```
 5. Create your database 
 
@@ -56,7 +57,7 @@ php artisan key:generate
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=doccure
+DB_DATABASE=medical_inventory
 DB_USERNAME=root
 DB_PASSWORD=
 ```
